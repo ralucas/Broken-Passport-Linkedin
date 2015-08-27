@@ -1,0 +1,30 @@
+{
+  "name": "bpl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app-github.js",
+  "scripts": {
+    "start": "node app-github.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mike-Risher/Broken-Passport-Linkedin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mike-Risher/Broken-Passport-Linkedin/issues"
+  },
+  "homepage": "https://github.com/Mike-Risher/Broken-Passport-Linkedin#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "cookie-parser": "^1.3.5",
+    "express": "^4.13.3",
+    "express-session": "^1.11.3",
+    "jade": "^1.11.0",
+    "morgan": "^1.6.1",
+    "passport": "^0.3.0",
+    "passport-linkedin-oauth2": "^1.2.1"
+  }
+}
